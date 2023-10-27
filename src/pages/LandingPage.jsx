@@ -1,9 +1,10 @@
-import React, { useState } from "react";
+import React, { useEffect, useState } from "react";
 import Navbar from "../components/Navbar";
 import { FiArrowDownCircle, FiLock, FiCheckCircle, FiShield } from "react-icons/fi"; 
 import { useNavigate } from "react-router-dom";
 import data from './data.json';
 import Card from "../components/Card";
+import toast from "react-hot-toast";
 
 const LandingPage = () => {
    const [isConnected, setIsConnected] = useState(false);
