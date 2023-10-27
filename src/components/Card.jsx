@@ -6,7 +6,7 @@ const Card = ({ product }) => {
 
   return (
     <div className="max-w-sm rounded overflow-hidden shadow-lg text-black">
-        <div className='h-[300px] w-[310px]'>
+        <div className='h-[300px] w-[400px]'>
           <img src={image_url} alt={product_name} className="w-[100%] h-[100%] object-cover" />
         </div>
       <div className="px-6 py-1">

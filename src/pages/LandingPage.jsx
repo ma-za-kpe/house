@@ -32,7 +32,7 @@ const LandingPage = () => {
           justifyContent: 'center',
           alignItems: 'center',
         }}
-        className="text-white text-center py-20 mt-12"
+        className="text-white text-center py-20"
       >
         <h1 className="text-6xl font-extrabold mb-4">Welcome to BorgaHouse</h1>
         <p className="text-xl mb-8">Your trusted platform for building and construction services.</p>
