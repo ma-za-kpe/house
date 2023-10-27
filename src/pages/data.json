@@ -1,0 +1,86 @@
+{
+    "data": [
+        {
+          "product_id": 1,
+          "product_name": "Stunning Modern House",
+          "price": 500000,
+          "image_url": "https://tsp1.surge.sh/static/media/hostel%20image1.f55e3a2ba386931c19b0.png",
+          "features": [
+            "4 Bedrooms",
+            "3 Bathrooms",
+            "Swimming Pool",
+            "Spacious Garden"
+          ],
+          "product_owner": "John Doe"
+        },
+        {
+          "product_id": 2,
+          "product_name": "Cozy Cottage",
+          "price": 150000,
+          "image_url": "https://tsp1.surge.sh/static/media/hostel%20image.5717bac842640c7a222d.png",
+          "features": [
+            "2 Bedrooms",
+            "1 Bathroom",
+            "Wooden Deck",
+            "Fireplace"
+          ],
+          "product_owner": "Jane Smith"
+        },
+        {
+          "product_id": 3,
+          "product_name": "Luxury Villa",
+          "price": 1000000,
+          "image_url": "https://i.pinimg.com/474x/d5/24/c9/d524c987a9b00dac65d845fac0f69b4f.jpg",
+          "features": [
+            "5 Bedrooms",
+            "4 Bathrooms",
+            "Private Beach Access",
+            "Home Theater"
+          ],
+          "product_owner": "Robert Johnson"
+        },
+        {
+            "product_id": 1,
+            "product_name": "Modern Family Home",
+            "price": 350000,
+            "image_url": "https://i.pinimg.com/474x/e0/6b/b0/e06bb05586b523db0f99db72198d278f.jpg",
+            "features": [
+              "4 Bedrooms",
+              "3 Bathrooms",
+              "Open Kitchen",
+              "Spacious Living Room",
+              "Two-car Garage"
+            ],
+            "product_owner": "John Smith"
+          },
+          {
+            "product_id": 2,
+            "product_name": "Rustic Cabin Retreat",
+            "price": 150000,
+            "image_url": "https://i.pinimg.com/474x/42/11/6c/42116ccb6c1f030d051ea9cd39f6dee0.jpg",
+            "features": [
+              "2 Bedrooms",
+              "1 Bathroom",
+              "Wooden Deck",
+              "Cozy Fireplace",
+              "Scenic Views"
+            ],
+            "product_owner": "Alice Johnson"
+          },
+          {
+            "product_id": 3,
+            "product_name": "Luxury Beachfront Villa",
+            "price": 1200000,
+            "image_url": "https://tsp1.surge.sh/static/media/hostel%20image2.a573e8735c07b315eafa.png",
+            "features": [
+              "6 Bedrooms",
+              "5 Bathrooms",
+              "Infinity Pool",
+              "Private Beach Access",
+              "Gourmet Kitchen"
+            ],
+            "product_owner": "Eleanor Brown"
+          }
+      ]
+      
+}
