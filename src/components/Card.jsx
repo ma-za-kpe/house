@@ -282,7 +282,7 @@ async function handleSubmit(e) {
       const from = accounts[0];
 
       // Replace 'myFunction' with the name of the function in your smart contract
-      await contract.methods.buyProduct().send({ from });
+      await contract.methods.buyProduct(accounts[0], ).send({ from });
     } else {
       console.error('No connected accounts.');
     }
@@ -290,43 +290,6 @@ async function handleSubmit(e) {
     console.error('Error connecting to the provider:', error);
   }
 }
-
-
-  // async function handleSubmit(e) {
-  //   e.preventDefault();
-  //   //alert('You clicked submit.')
-  //   //console.log('You clicked submit.');
-  //   try {
-  //     const accounts = await Web3.eth.getAccounts();
-  //     const from = accounts[0]; // Assuming the user's account is the first account
-  
-  //     // Replace 'myFunction' with the name of the function in your smart contract
-  //     await contract.methods.myFunction().send({ from });
-  //     //console.log('Transaction sent!');
-  //   } catch (error) {
-  //     console.error('Error sending transaction: ', error);
-  //   }
-
-  //   try {
-  //     const provider = new web3.providers.Web3Provider(window.ethereum); // Assuming you're using MetaMask
-  //     await window.ethereum.enable(); // Request user permission
-  
-  //     const accounts = await provider.listAccounts();
-  //     if (accounts.length > 0) {
-  //       console.log('Connected account:', accounts[0]);
-  //       const accounts = await Web3.eth.getAccounts();
-  //     const from = accounts[0]; // Assuming the user's account is the first account
-  
-  //     // Replace 'myFunction' with the name of the function in your smart contract
-  //     await contract.methods.buyProduct().send({ from });
-  //     } else {
-  //       console.error('No connected accounts.');
-  //     }
-  //   } catch (error) {
-  //     console.error('Error connecting to the provider:', error);
-  //   }
-  // }
-  
 
   return (
     <div className="max-w-sm rounded overflow-hidden shadow-lg text-black">
