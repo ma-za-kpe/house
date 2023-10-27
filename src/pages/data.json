@@ -1,86 +1,39 @@
 {
-    "data": [
-        {
-          "product_id": 1,
-          "product_name": "Stunning Modern House",
-          "price": 500000,
-          "image_url": "https://tsp1.surge.sh/static/media/hostel%20image1.f55e3a2ba386931c19b0.png",
-          "features": [
-            "4 Bedrooms",
-            "3 Bathrooms",
-            "Swimming Pool",
-            "Spacious Garden"
-          ],
-          "product_owner": "John Doe"
-        },
-        {
-          "product_id": 2,
-          "product_name": "Cozy Cottage",
-          "price": 150000,
-          "image_url": "https://tsp1.surge.sh/static/media/hostel%20image.5717bac842640c7a222d.png",
-          "features": [
-            "2 Bedrooms",
-            "1 Bathroom",
-            "Wooden Deck",
-            "Fireplace"
-          ],
-          "product_owner": "Jane Smith"
-        },
-        {
-          "product_id": 3,
-          "product_name": "Luxury Villa",
-          "price": 1000000,
-          "image_url": "https://i.pinimg.com/474x/d5/24/c9/d524c987a9b00dac65d845fac0f69b4f.jpg",
-          "features": [
-            "5 Bedrooms",
-            "4 Bathrooms",
-            "Private Beach Access",
-            "Home Theater"
-          ],
-          "product_owner": "Robert Johnson"
-        },
-        {
-            "product_id": 1,
-            "product_name": "Modern Family Home",
-            "price": 350000,
-            "image_url": "https://i.pinimg.com/474x/e0/6b/b0/e06bb05586b523db0f99db72198d278f.jpg",
-            "features": [
-              "4 Bedrooms",
-              "3 Bathrooms",
-              "Open Kitchen",
-              "Spacious Living Room",
-              "Two-car Garage"
-            ],
-            "product_owner": "John Smith"
-          },
-          {
-            "product_id": 2,
-            "product_name": "Rustic Cabin Retreat",
-            "price": 150000,
-            "image_url": "https://i.pinimg.com/474x/42/11/6c/42116ccb6c1f030d051ea9cd39f6dee0.jpg",
-            "features": [
-              "2 Bedrooms",
-              "1 Bathroom",
-              "Wooden Deck",
-              "Cozy Fireplace",
-              "Scenic Views"
-            ],
-            "product_owner": "Alice Johnson"
-          },
-          {
-            "product_id": 3,
-            "product_name": "Luxury Beachfront Villa",
-            "price": 1200000,
-            "image_url": "https://tsp1.surge.sh/static/media/hostel%20image2.a573e8735c07b315eafa.png",
-            "features": [
-              "6 Bedrooms",
-              "5 Bathrooms",
-              "Infinity Pool",
-              "Private Beach Access",
-              "Gourmet Kitchen"
-            ],
-            "product_owner": "Eleanor Brown"
-          }
-      ]
-      
+  "data": [
+    {
+      "productName": "Iron Rods",
+      "price": 0.001,
+      "image": "https://i.pinimg.com/474x/f1/26/4f/f1264f08ad4874ad3fb4b263ce5e29e3.jpg",
+      "description": "High-quality iron rods for construction.",
+      "productOwner": "Steel Industries Inc."
+    },
+    {
+      "productName": "Nails",
+      "price": 0.00053,
+      "image": "https://i.pinimg.com/474x/09/43/c0/0943c0aa3f0c4694f2a43df25b49ce00.jpg",
+      "description": "Box of nails for fastening materials.",
+      "productOwner": "Hardware Store Ltd."
+    },
+    {
+      "productName": "Sand",
+      "price": 0.003,
+      "image": "https://i.pinimg.com/474x/0d/71/8a/0d718a2624ad5f8f5debe59892b9c84a.jpg",
+      "description": "Fine sand for concrete mixing and masonry work.",
+      "productOwner": "Sand Suppliers Co."
+    },
+    {
+      "productName": "Cement",
+      "price": 0.001,
+      "image": "https://i.pinimg.com/474x/76/eb/92/76eb922ebbd7958ed657c93d2a23d245.jpg",
+      "description": "High-quality cement for construction projects.",
+      "productOwner": "Cement Manufacturing Ltd."
+    },
+    {
+      "productName": "Bricks",
+      "price": 0.0022,
+      "image": "https://i.pinimg.com/474x/5c/2c/9e/5c2c9eea7a230a74c3cc2757434df911.jpg",
+      "description": "Red bricks for building walls and structures.",
+      "productOwner": "Brick Factory Inc."
+    }
+  ]
 }
